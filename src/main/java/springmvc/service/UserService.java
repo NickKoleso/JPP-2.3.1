@@ -1,10 +1,11 @@
-package springmvc.dao;
+package springmvc.service;
 
 import springmvc.model.User;
 
 import java.util.List;
 
-public interface UserDao{
+public interface UserService {
+
     void addUser(User user);
 
     User updateUser(User user, long id);
